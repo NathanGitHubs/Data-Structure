@@ -1,0 +1,20 @@
+Implement squareRootFinder and nthRootFinder. For more details, please look at the write-up posted on iCollege. Please leave the main method blank, but you can use it for testing. If you'd like to run your squareRootFinder or nthRootFinder, you may call it in your main method and the print the output to see what you get.
+
+ Hint: Remember we want decimal places, so we may want to start using doubles and not ints.
+
+Tests that I will run:
+
+squareRootFinder(41, 1) == 20.50000
+squareRootFinder(41, 3) == 5.12500
+squareRootFinder(41, 20) == 6.40316
+squareRootFinder(41, 100) == 6.40312
+squareRootFinder(100, 1) == 50.00000
+squareRootFinder(100, 3) == 12.50000
+squareRootFinder(100, 6) == 10.93750
+
+nthRootFinder(64, 100, 3) == 4.0000
+nthRootFinder(64, 2, 3) == 16.0000
+nthRootFinder(60, 4, 3) = 3.75000
+nthRootFinder(60, 100, 3) == 3.91487
+nthRootFinder(32, 4, 5) == 2.0000
+nthRootFinder(100, 20, 5) == 2.51188
