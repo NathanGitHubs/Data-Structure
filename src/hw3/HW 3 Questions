@@ -1,0 +1,17 @@
+Reverse Array:
+    In this problem, you will write a function to reverse an array of integers. Your algorithm should use O(1) space
+    beyond the input; any algorithms that use space not in O(1) will not receive credit. You may not use any library
+    functions in this question; any solutions that do will receive zero credit. Implement the reverseArray method.
+
+Balance Parentheses:
+    In this problem, you will write a function to check if parentheses are balanced.
+    More details are in the write up. Implement isBalanced.
+
+Dogish:
+    (a) (20 points) Define the method inDogish recursively such that it returns true if the word is in dog-ish and
+    false if it is not. I left a dogishHelper method, which I guarantee you will need to recursively solve dogish.
+    An iterative solution will receive no points.
+
+    (b) (20 points) Define the method inXish that does the same logic of dog-ish but for some word X.
+    The method returns true if the word contains all the letters in the word X. The solution must be recursive.
+    An iterative solution will receive no points.

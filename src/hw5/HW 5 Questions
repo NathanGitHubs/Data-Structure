@@ -1,0 +1,49 @@
+In this problem, we will use our knowledge of maps and lists to build a spell-checking program.  The class Main contains the starter code for this problem; your task is to complete this program.  You are provided with a file titled words.txt, which contains a list of valid English words, one per line.  Your program should take as input a line of space-separated words representing a sentence.  (No punctuation or capitalization will be used; all characters will be either the space character or a lowercase English letter). You should then output a list of words in the input that are misspelled, each on their own line, followed by a newline.
+
+For example, if our input is:
+
+teh qwick braown foxx jumpps ovar teh laizy dog
+
+then we should print:
+teh
+qwick
+braown
+foxx
+jumpps
+ovar
+teh
+laizy
+
+Restrictions:
+(a) You may not use any of Java’s built-in data structures except for arrays, arraylists, and linked lists. (In particular, you should write your own implementation of HashSet. I suggest calling this MyHashSet.)
+(b) Your algorithm should run in approximately O(m+n) time, where m is the total number of words in the file words.txt and n is the number of words in the input sentence.
+(c) Violations of these restrictions will result in your receiving a zero for
+this question
+
+Hints :
+(a) As  a  first  step,  I  would  recommend  implementing  your  own  ver-
+sion  of  hash  sets,  called  “MyHashSet”.
+  i.  Your hash set should support an “add” method, which takes in
+a string and puts it in the set.
+
+  ii.  Your hash set should support a “contains” method, which takes
+in a string and returns true if it’s in the set, and false otherwise.
+
+  iii.  Your hash set should contain an array for holding the underlying
+data.
+
+  iv.  Your hash set should include a hash function.  I suggest research-
+ing one on the Internet and using that.
+
+  v.  Your hash set should handle collisions somehow.  I suggest using
+a linked list.
+
+(b)  As a second step, you should iterate through the lines in
+words.txt, and put each one in an instance of your hash set.  Code for reading from the file has been provided; your job is to put each word in your
+hash set.
+
+(c)  As a third step, you should iterate through the input words, check if
+each one is in the set, and print it if it is not (i.e.  it is not in the set
+of real English words).
+
+(d) There are 2 TODOs. Make sure you do both!
